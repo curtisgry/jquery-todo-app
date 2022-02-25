@@ -3,6 +3,8 @@
         const addButton = $('#button');
         const list = $('#list');
 
+        list.sortable();
+
         let inputValue;
 
         function deleteToDoItem(element) {
